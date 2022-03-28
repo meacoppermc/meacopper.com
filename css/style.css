@@ -4282,7 +4282,16 @@ header-style-seven .nav-toggler:hover{
 .about-section .image-column{
 	position: relative;
 }
-
+.about-section .outer-box {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 0 60px;
+}
 .about-section .image-column .inner-column{
 	position: relative;
 	text-align: right;
