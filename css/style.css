@@ -4424,20 +4424,28 @@ header-style-seven .nav-toggler:hover{
 }
 
 .services-section .upper-box{
+	/* position: relative; */
+	/* padding: 85px 0 270px; */
 	position: relative;
-	padding: 85px 0 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 0 60px;
 }
 
-.services-section .upper-box:before{
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #000000;
-	content: "";
-	opacity: .85;
-}
+/* .services-section .upper-box:before{ */
+	/* position: relative; */
+	/* left: 0; */
+	/* top: 0; */
+	/* height: 100%; */
+	/* width: 100%; */
+	/* background-color: #000000; */
+	/* content: ""; */
+	/* opacity: .85; */
+/* } */
 
 .services-section .services-box{
 	position: relative;
@@ -5299,7 +5307,16 @@ header-style-seven .nav-toggler:hover{
 	background-size: cover;
 	padding: 100px 0 20px;
 }
-
+.process-section .outer-box{
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 100px 0 60px;
+}
 .process-section:before{
 	position: absolute;
 	left: 0;
@@ -5307,7 +5324,7 @@ header-style-seven .nav-toggler:hover{
 	height: 100%;
 	width: 100%;
 	background: #222222;
-	opacity: 0.85;
+	opacity: 0.65;
 	content: "";
 }
 
@@ -5526,6 +5543,16 @@ header-style-seven .nav-toggler:hover{
 
 .fun-fact-and-features.alternate{
 	padding-bottom: 100px;
+}
+.fun-fact-and-features .outer-box{
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 100px 0 60px;
 }
 
 .fun-fact-and-features.alternate:before{
@@ -7069,7 +7096,16 @@ header-style-seven .nav-toggler:hover{
 	padding: 100px 0;
 	background-color: #f5f5f5;
 }
-
+.testimonial-section-two .outer-box{
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 100px 0 60px;
+}
 .testimonial-carousel-two{
 	position: relative;
 	padding-left: 100px;
@@ -9327,7 +9363,9 @@ header-style-seven .nav-toggler:hover{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 	z-index: 1;
+	
 }
 
 .main-footer:before{
@@ -9335,15 +9373,16 @@ header-style-seven .nav-toggler:hover{
 	left: 0;
 	top: 0;
 	height: 100%;
+	
 	width: 100%;
 	background:#000000;
 	content: "";
-	opacity: 0.90;
+	opacity: 0.70;
 }
 
 .main-footer .widgets-section{
 	position:relative;
-	padding: 220px 0 60px;
+	/* padding: 220px 0 60px;padding: 220px 0 60px; */
 	margin-top: -100px;
 }
 
