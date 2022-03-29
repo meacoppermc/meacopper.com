@@ -1237,9 +1237,9 @@
 		margin-top: 0px;
 	}
 
-	.main-header .top-left{
-		display: none;
-	}
+	/* .main-header .top-left{ */
+		/* display: none; */
+	/* } */
 
 	.main-header .top-right{
 		text-align: center;
