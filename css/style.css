@@ -2516,7 +2516,26 @@ header-style-seven .nav-toggler:hover{
 .banner-carousel .content-box{
 	position: relative;
 }
-
+.banner-carousel h1{
+	position: relative;
+	display: block;
+	font-size: 90px;
+	line-height: 85px;
+	color: #ffffff;
+	font-weight: 500;
+	margin-bottom: 30px;
+	opacity: 0;
+	-webkit-transition: all 1000ms ease;
+	-moz-transition: all 100ms ease;
+	-ms-transition: all 1000ms ease;
+	-o-transition: all 1000ms ease;
+	transition: all 1000ms ease;
+	-webkit-transform: translateY(-50px);
+	-moz-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	-o-transform: translateY(-50px);
+	transform: translateY(-50px);
+}
 .banner-carousel h2{
 	position: relative;
 	display: block;
@@ -2538,18 +2557,18 @@ header-style-seven .nav-toggler:hover{
 	transform: translateY(-50px);
 }
 
-.banner-carousel .active h2{
+.banner-carousel .active h1{
 	opacity: 1;
 	-webkit-transform: translateY(0);
 	-moz-transform: translateY(0);
 	-ms-transform: translateY(0);
 	-o-transform: translateY(0);
 	transform: translateY(0);
-	-webkit-transition-delay: 700ms;
-	-moz-transition-delay: 700ms;
-	-ms-transition-delay: 700ms;
-	-o-transition-delay: 700ms;
-	transition-delay: 700ms;
+	-webkit-transition-delay: 400ms;
+	-moz-transition-delay: 400ms;
+	-ms-transition-delay: 400ms;
+	-o-transition-delay: 400ms;
+	transition-delay: 400ms;
 }
 
 .banner-carousel .content-box .text{
@@ -4901,7 +4920,17 @@ header-style-seven .nav-toggler:hover{
 	position: relative;
 	padding: 100px 0;
 }
-
+.specialize-section .outer-box{
+	position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 0 60px;
+	
+}
 .specialize-section .sec-title{
 	margin-bottom: 60px;
 }
